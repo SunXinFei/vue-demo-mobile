@@ -3,7 +3,7 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 import axios from 'axios';
-// import "@/style/common.scss";
+import "@/style/common.scss";
 import "normalize.css";
 import moment from 'moment';
 import * as CONST from "./constant";

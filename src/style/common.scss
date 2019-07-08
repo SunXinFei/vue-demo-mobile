@@ -1,0 +1,347 @@
+body {
+  font-family: 'PingFangSC-Regular';
+  // 清除浮动
+  .clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  //radio
+  .ivu-radio-wrapper{
+    .ivu-radio.ivu-radio-checked{
+      .ivu-radio-inner{
+        border-color: #dcdee2;
+        &.ivu-radio-focus{
+          box-shadow:none;
+        }
+        &::after{
+          background-color: #32A6B8;
+        }
+      }
+    }
+  }
+
+  // input样式
+  .ivu-input {
+    &:hover {
+      border-color: #32a6b8;
+      box-shadow: none;
+    }
+
+    &:focus {
+      border-color: #32a6b8;
+      box-shadow: none;
+    }
+  }
+
+  .ivu-input {
+    color: #38434e;
+    height: 34px;
+  }
+
+  // search样式
+  .ivu-input-search-icon:hover {
+    color: #32A6B8;
+  }
+
+  //select样式
+  .ivu-select-single .ivu-select-selection {
+    height: 34px;
+    margin: 0px;
+
+    div {
+      background: #fff;
+      border-radius: 4px;
+    }
+  }
+
+  .ivu-select-selection-focused,
+  .ivu-select-selection:hover {
+    border-color: #32a6b8;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+  .ivu-select-visible .ivu-select-selection{
+    border-color: #32a6b8;
+    box-shadow: none;
+  }
+
+  .ivu-select-item-selected,
+  .ivu-select-item-selected:hover {
+    color: #32a6b8;
+  }
+
+  // 分页器
+  .ivu-page.mini {
+    .ivu-page-total,
+    .ivu-page-item {
+      font-size: 14px;
+      vertical-align: middle;
+    }
+  }
+
+  .page-cont .ivu-page-item-active {
+    width: 26px;
+    height: 26px;
+    background-color: #32a6b8;
+    color: white;
+    border-radius: 4px;
+  }
+
+  .page-cont .ivu-page-item-active a,
+  .page-cont .ivu-page-item-active:hover a {
+    color: white;
+  }
+
+  // 日历样式
+  .ivu-date-picker-header {
+    font-size: 16px;
+    color: #181c21;
+    font-family: PingFangSC-Medium;
+  }
+
+  .ivu-date-picker-cells-header span {
+    color: #181c21;
+    font-size: 12px;
+    font-family: PingFangSC-Medium;
+  }
+
+  .ivu-picker-panel-shortcut:hover {
+    background-color: #32a6b8;
+    color: white;
+  }
+
+  .ivu-date-picker-cells-cell:hover em {
+    background: #eaf6f8;
+  }
+
+  .ivu-date-picker-cells-focused em {
+    box-shadow: 0 0 0 1px #32a6b8 inset;
+  }
+
+  .ivu-date-picker-cells-focused em:hover {
+    box-shadow: 0 0 0 1px #32a6b8 inset;
+  }
+
+  .ivu-date-picker-cells-cell-today em:after {
+    background: #32a6b8;
+  }
+
+  .ivu-date-picker-cells-cell-today.ivu-date-picker-cells-cell-selected em:after {
+    background: #ffffff;
+  }
+
+  .ivu-date-picker-cells-cell-selected em,
+  .ivu-date-picker-cells-cell-selected:hover em {
+    background: #32a6b8;
+    color: #fff;
+  }
+
+  .ivu-date-picker-cells-cell-range:before {
+    background-color: #eaf6f8;
+  }
+
+  .ivu-picker-panel-icon-btn:hover {
+    color: #32a6b8;
+  }
+
+  .ivu-date-picker-header-label:hover {
+    color: #32a6b8;
+  }
+
+
+  /*--------- table start ---------*/
+  .ivu-table {
+    color: #38434E;
+    font-size: 13px;
+
+    table {
+      width: 100% !important;
+    }
+
+    &:before {
+      background-color: #EBECEE;
+    }
+
+    &:after {
+      background-color: #EBECEE;
+    }
+
+    td,
+    th {
+      border-bottom: 1px solid #EBECEE;
+    }
+
+    th {
+      height: 35px;
+      background: #EFF0F2;
+    }
+
+    &-row {
+      border: none
+    }
+
+    &-tip span {
+      display: block;
+      background: url("../assets/img/icon_default.png") no-repeat center 180px;
+      color: #969FAA;
+      font-size: 14px;
+      height: 530px;
+      line-height: 606px;
+    }
+
+    &-header {
+      background: rgba(235, 236, 238, 0.80);
+      font-size: 12px;
+      color: #5A6978;
+      font-family: PingFangSC-Regular;
+
+      .ivu-table-cell {
+        font-weight: 400;
+      }
+    }
+
+    &-body {
+      font-size: 14px;
+    }
+
+    &-wrapper {
+      border: 1px solid #EBECEE;
+      border-bottom: 0;
+      border-right: 0
+    }
+
+    .ivu-table-cell {
+      .ivu-poptip {
+        .ivu-table-filter {
+          .ivu-icon-ios-funnel {
+            margin-bottom: 1px;
+          }
+
+          i.on {
+            color: #32A6B8;
+          }
+        }
+      }
+    }
+  }
+
+  //表格体内 省略字体
+  tbody {
+    .ivu-poptip {
+      width: 100%;
+
+      &-rel {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: block;
+        margin-top: 5px;
+      }
+    }
+  }
+
+  .ivu-page-item {
+    font-size: 14px;
+
+    &:hover a {
+      color: #32A6B8;
+    }
+
+    &-active {
+      width: 26px;
+      height: 26px;
+      background-color: #32A6B8;
+      color: white;
+      border-radius: 4px;
+
+      &:hover a,
+      a {
+        color: white;
+      }
+    }
+  }
+
+  .ivu-page-options {
+    font-size: 14px;
+  }
+
+  .ivu-select-item-selected,
+  .ivu-select-item-selected:hover {
+    color: #32A6B8;
+  }
+
+  .ivu-page-options-elevator input:hover {
+    border-color: #32A6B8;
+  }
+
+  .ivu-spin-dot {
+    background-color: #32A6B8;
+  }
+
+  // table中filter样式
+  .ivu-table-filter-list .ivu-table-filter-select-item-selected,
+  .ivu-table-filter-list .ivu-table-filter-select-item-selected:hover {
+    color: #32A6B8;
+  }
+  /*--------- table end ---------*/
+
+
+  /* --------- 面包屑 ----------- */
+  .ivu-breadcrumb{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    height: 74px;
+    line-height: 74px;
+    position: relative;
+    a{
+      color: #5A6978;
+      &:hover{
+        color: #32a6b8;
+      }
+    }
+  }
+
+  /* ---------- 表单 --------- */
+  .form{
+    .ivu-form {
+      &-item {
+        margin-bottom: 20px;
+        &-label {
+          padding-right: 30px;
+          font-family: PingFangSC-Regular;
+          font-size: 12px;
+          color: #5a6978;
+        }
+        &-content {
+          font-family: PingFangSC-Regular;
+          font-size: 12px;
+          color: #38434e;
+          textarea.ivu-input{
+            font-size: 12px;
+          }
+        }
+        &:last-child{
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+  
+}
+
+/* 面包屑分隔符 */
+.breadcrumb-separator{
+  color: #515a6e;
+  opacity: 0.5;
+}
+
+/* ------ 动画 ------- */
+@keyframes rotate360 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

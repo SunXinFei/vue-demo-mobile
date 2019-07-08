@@ -1,0 +1,434 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-color: #F6F6F6;
+}
+
+.login-main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -300px;
+  margin-left: -520px;
+  width: 1039px;
+  height: 600px;
+  border-radius: 12px;
+
+}
+
+.login-advertisement {
+  overflow: hidden;
+  width: 1039px;
+  height: 600px;
+  color: #fff;
+  background: url(//js.t.sinajs.cn/ads/fe_plan_diagnosis/lib/img/login.png) no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.login-advertisement .login-title {
+  margin-top: 128px;
+  margin-left: 50px;
+  font-family: PingFangSC-Regular;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+
+.login-advertisement p {
+  margin-top: 30px;
+  margin-left: 50px;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.login-error-tip {
+  float: left;
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  color: #D82B40;
+  ;
+  line-height: 12px;
+}
+
+.login-box .title {
+  font-weight: 600;
+  font-family: PingFangSC-Medium;
+  font-size: 18px;
+  letter-spacing: 0.45px;
+  line-height: 18px;
+  margin-bottom: 40px;
+}
+
+.login-box .title .title-account {
+  color: #2E334A;
+}
+
+.login-box .title .title-safe {
+  color: #B9BED3;
+  margin-left: 20px;
+}
+
+.auto-login {
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  color: #7B7B7B;
+  line-height: 12px;
+}
+
+
+.swiper-container.swiper-container-vertical.swiper-container-wp8-vertical {
+  width: 100%;
+  height: 100%;
+}
+
+.validation {
+  width: 100px;
+}
+
+.validation-img {
+  width: 100px;
+  height: 32px;
+  border-radius: 4px;
+  margin-top: 2px;
+}
+
+.validation-code {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.validation-box {
+  float: right;
+  height: 32px;
+}
+
+/* 登录框 */
+
+body .Bv6_layer ::selection,
+.Bv6_layer_menu_list ::selection {
+  background: #32A6B8;
+  color: #fff;
+}
+
+body .layer_login_register_v2 .qrcode_con {
+  width: 206px;
+}
+
+body .Bv6_layer_menu_list+div {
+  display: none;
+}
+
+body .Bv6_layer_pop.Bv6_layer {
+  position: absolute;
+  top: 0 !important;
+  margin: 0;
+  left: 0 !important;
+}
+
+body .Bv6_layer .W_arrow_bor_b em {
+  display: none;
+}
+
+body .Bv6_layer {
+  position: fixed;
+  top: 50% !important;
+  margin-top: -208px;
+  left: 64% !important;
+}
+
+body .Bv6_layer .content {
+  border: 0px;
+  -webkit-border-radius: 18px !important;
+  -moz-border-radius: 18px !important;
+  -o-border-radius: 18px !important;
+}
+
+body .Bv6_layer .content .W_layer_title {
+  display: none;
+}
+
+body .Bv6_layer .content .layer_login_register_v2 {
+  height: 416px;
+  padding: 0;
+  background: #FFFFFF;
+  border: 1px solid #E1E6F1;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 12px !important;
+}
+
+body .Bv6_layer .content .layer_login_register_v2 .tab_bar {
+  border-bottom: 0 !important;
+}
+
+body .Bv6_layer .content .layer_login_register_v2 .tab_bar .cur {
+  border-bottom: 0 !important;
+  font-family: PingFangSC-Medium;
+  font-size: 18px;
+  color: #2E334A;
+  letter-spacing: 0.45px;
+  line-height: 18px;
+}
+
+body .Bv6_layer .content .layer_login_register_v2 .tab_bar a {
+  font-family: PingFangSC-Regular;
+  font-size: 18px;
+  color: #B9BED3;
+  letter-spacing: 0.45px;
+  line-height: 18px;
+  transition: none;
+  display: none;
+}
+
+body .Bv6_layer .content .layer_login_register_v2 .tab_bar a.active {
+  display: block;
+}
+
+body .Bv6_layer .content .layer_login_register_v2 .tab_bar a {
+  color: #2E334A;
+  font-weight: bolder;
+}
+
+body .Bv6_layer .content .layer_login_register_v2 .tab_bar a:nth-child(3) {
+  margin-left: 85px;
+
+}
+
+body .Bv6_layer .content .layer_login_register_v2 .B_login.form_login_register .item .auto_login {
+  background-color: #2A60E4;
+  border-color: #2A60E4;
+}
+
+body .Bv6_layer .content .layer_login_register_v2 .form_login_register {
+  width: 258px;
+}
+
+body .Bv6_layer .content .layer_login_register_v2 .form_login_register .item_btn.login_qq {
+  display: none;
+}
+
+.text_info.W_tc a {
+  color: #7E7E7E;
+}
+
+.text_info.W_tc a:hover {
+  color: #32A6B8 !important;
+}
+
+.text_info.W_tc a:nth-child(2) {
+  display: none;
+}
+
+body .Bv6_layer .content .layer_login_register_v2 .B_login.form_login_register {
+  padding: 0;
+}
+
+body .Bv6_layer .content .layer_login_register_v2 .B_login.form_login_register .item {
+  margin-bottom: 0;
+}
+
+body .Bv6_layer .content .layer_login_register_v2 .B_login.form_login_register .item.input_wrap {
+  width: auto;
+  background: none;
+  padding: 0;
+  margin-top: 20px;
+  border: none;
+  line-height: 42px;
+  position: relative;
+}
+
+body .Bv6_layer .content .layer_login_register_v2 .B_login.form_login_register .item.input_wrap .W_input {
+  width: 246px;
+  height: 42px;
+  border: 1px solid #E1E6F1;
+  border-radius: 4px;
+  padding-left: 12px;
+}
+
+.input-close {
+  position: absolute;
+  top: 12.5px;
+  right: 8.5px;
+  height: 17px;
+  width: 17px;
+  opacity: 0;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-image: url("//js.t.sinajs.cn/ads/fe_plan_diagnosis/lib/img/login_icon_close.svg");
+}
+
+.input-close:hover {
+  background-image: url("//js.t.sinajs.cn/ads/fe_plan_diagnosis/lib/img/login_close_hover.svg");
+}
+
+body .Bv6_layer .content .layer_login_register_v2 .B_login.form_login_register .item.input_wrap .W_input.W_input_focus {
+  border: 1px solid #E1E6F1 !important;
+  box-shadow: 2px 2px 2px #E1E6F1 !important;
+  border-right: 4px !important;
+}
+
+body .Bv6_layer .content .layer_login_register_v2 .B_login.form_login_register .password .enter_psw {
+  top: 3px;
+  left: 12px;
+  display: none;
+}
+
+body .Bv6_layer .content .layer_login_register_v2 .B_login.form_login_register .item.auto_login {
+  margin-top: 20px;
+}
+
+body .Bv6_layer .content .layer_login_register_v2 .B_login.form_login_register .auto_login .checkbox-inner {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  position: relative;
+  top: -1px;
+  left: -88px;
+  z-index: 0;
+  background-color: #fff;
+  border: 1px solid #E1E6F1;
+  border-radius: 2px;
+}
+
+body .Bv6_layer .content .layer_login_register_v2 .B_login.form_login_register .auto_login .checkbox-inner-checked {
+  background-color: #32A6B8;
+}
+
+.form_login_register .auto_login label {
+  margin-left: 16px !important;
+}
+
+#login_form_savestate {
+  position: absolute;
+  left: 55px;
+  right: 0;
+  z-index: 1;
+  cursor: pointer;
+  opacity: 0;
+
+}
+
+body .Bv6_layer .content .layer_login_register_v2 .B_login.form_login_register .auto_login .checkbox-inner:after {
+  content: '';
+  display: table;
+  width: 2px;
+  height: 6px;
+  position: absolute;
+  top: 1px;
+  left: 4px;
+  border: 2px solid #fff;
+  border-top: 0;
+  border-left: 0;
+  transform: rotate(45deg) scale(1);
+  transition: all .2s ease-in-out;
+}
+
+body .Bv6_layer .content .layer_login_register_v2 .B_login.form_login_register .item.auto_login .forget_psw {
+  text-align: right;
+  float: right;
+}
+
+body .Bv6_layer .content .layer_login_register_v2 .B_login.form_login_register .item_btn .btn_34px {
+  width: 230px;
+  height: 42px;
+  background: #32A6B8;
+  box-shadow: 0 2px 4px 0 rgba(42, 96, 228, 0.12);
+  border-radius: 4px;
+  color: white;
+  border: none;
+  line-height: 42px;
+  margin-top: 20px;
+}
+
+body .Bv6_layer a.S_txt2:hover {
+  color: #32A6B8;
+}
+
+body .Bv6_layer .W_layer_close .ficon_close {
+  display: none;
+}
+
+body .Bv6_layer_pop.Bv6_layer {
+  top: 99px !important;
+  left: 57px !important;
+}
+
+.main_txt span:first-child,
+.W_ficon.ficon_close.S_ficon {
+  display: none;
+}
+
+.main_txt span:nth-child(2) {
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  color: #D82B40;
+  line-height: 12px;
+}
+
+body .Bv6_layer_pop.Bv6_layer .W_layer_arrow {
+  display: none;
+}
+
+.Bv6_layer .layer_mini_info {
+  padding: 0 !important;
+  border: 1px solid red;
+}
+
+body .Bv6_layer .content {
+  box-shadow: none;
+}
+
+.layer_login_register_v2 .qrcode_con .note {
+  margin-top: 0 !important;
+  font-size: 14px !important;
+}
+
+.Bv6_layer_menu_list {
+  margin-left: 35px;
+  width: 263px !important;
+}
+
+.Bv6_layer_menu_list ul:nth-child(2) li:hover a {
+  color: #2a60e4;
+}
+
+.layer_login_register_v2 .opacity_bg,
+.layer_login_register_v2 .result {
+  left: 77px !important;
+  top: 100px !important;
+}
+
+#pass_status {
+  margin-top: 35px;
+  margin-bottom: 21px;
+  overflow: hidden;
+}
+
+#pass_status span {
+  display: none;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+#pass_status span:nth-child(1) {
+  background: url('//js.t.sinajs.cn/ads/fe_plan_diagnosis/lib/img/back_icon.svg') no-repeat;
+  float: left;
+  margin-left: 22px;
+}
+
+#pass_status span:nth-child(2) {
+  background: url('//js.t.sinajs.cn/ads/fe_plan_diagnosis/lib/img/qr_icon.svg') no-repeat;
+  float: right;
+  margin-right: 22px;
+}
+
+#pass_status span.active {
+  display: block;
+}

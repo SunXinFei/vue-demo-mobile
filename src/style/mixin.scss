@@ -1,0 +1,102 @@
+$select-button-normal-bgcolor: #F9F9FA;
+$select-button-active-bgcolor: rgba(50, 166, 184, 0.20);
+$select-button-active-font-color: #32A6B8;
+
+// 选择按钮文本样式 
+@mixin select-button-font {
+  cursor: pointer;
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  text-align: center;
+}
+
+//选择按钮选中状态文本样式
+@mixin select-button-active-font {
+  cursor: pointer;
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  text-align: center;
+}
+
+//页面头部标题
+@mixin page-title {
+  font-family: PingFangSC-Medium;
+  font-size: 16px;
+  color: #181C21;
+  letter-spacing: 0.4px;
+}
+
+//内容头部标题
+@mixin content-title {
+  font-family: PingFangSC-Medium;
+  font-size: 14px;
+  color: #38434E;
+  letter-spacing: 0.35px;
+}
+
+//标题旁的描述信息
+@mixin title-desc {
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  color: #5A6978;
+}
+
+//微博卡片昵称
+@mixin weibo-card-nickname {
+  font-family: PingFangSC-Regular;
+  font-size: 13px;
+  color: #38434e;
+  text-align: justify;
+}
+
+//查看原文字体
+@mixin weibo-card-option {
+  font-family: PingFangSC-Regular;
+  font-size: 13px;
+  color: #32a6b8;
+}
+
+//查看更多
+@mixin weibo-view-more {
+  font-family: PingFangSC-Regular;
+  font-size: 13px;
+  color: #32a6b8;
+}
+
+//微博卡片内容
+@mixin weibo-card-content {
+  font-family: PingFangSC-Regular;
+  font-size: 13px;
+  color: #38434e;
+  text-align: justify;
+}
+
+//省略号文本
+@mixin ellipsis-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+//绝对定位居中
+@mixin absolute-center {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  text-align: center;
+}
+
+//分页容器样式
+@mixin pager-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 0;
+  text-align: center;
+  background-color: #FFF;
+  border: 1px solid #EBECEE;
+  border-top: none;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
